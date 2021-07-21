@@ -224,7 +224,8 @@ nav {
 
 .articulo {
     width: 29%;
-    background: rgb(255, 255, 255);
+    /*background: rgb(255, 255, 255);*/
+    background: #f8f8f8;
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
@@ -250,13 +251,13 @@ nav {
 
 .articulo>h4 {
     font-size: 24px;
-    background: #fff;
+    background: #f8f8f8;
     margin-top: 30px;
 }
 
 .articulo>p {
     font-weight: 100;
-    background: white;
+    background: #f8f8f8;
     color: #2e2e2e;
     margin-top: 15px;
     padding-bottom: 20px;
@@ -292,7 +293,8 @@ nav {
 
 .tipos {
     width: 29%;
-    background: rgb(255, 255, 255);
+    /*background: rgb(255, 255, 255);*/
+    background: #f8f8f8;
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
@@ -304,13 +306,13 @@ nav {
 }
 
 .tipos>h4 {
-    background: #fff;
+    background: #f8f8f8;
     margin-top: 5px;
 }
 
 .tipos>p {
     font-weight: 100;
-    background: white;
+    background: #f8f8f8;
     color: #2e2e2e;
     margin-top: 15px;
     padding-bottom: 20px;
