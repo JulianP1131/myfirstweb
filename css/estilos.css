@@ -139,7 +139,7 @@ nav {
     align-items: center;
 }
 
-.contenido-header p{
+.contenido-header p {
     font-weight: 100;
     font-size: 18px;
     background: white;
@@ -278,11 +278,11 @@ nav {
     justify-content: space-evenly;
 }
 
-.results{
+.results {
     background: #cfcfcf;
 }
 
-.contenedor-tipos{
+.contenedor-tipos {
     display: flex;
     background: #cfcfcf;
     flex-wrap: wrap;
@@ -290,7 +290,7 @@ nav {
     justify-content: space-around;
 }
 
-.tipos{
+.tipos {
     width: 29%;
     background: rgb(255, 255, 255);
     margin-bottom: 30px;
@@ -299,16 +299,16 @@ nav {
     transition: 0.5s;
 }
 
-.tipos:hover{
+.tipos:hover {
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
 }
 
-.tipos>h4{
+.tipos>h4 {
     background: #fff;
     margin-top: 5px;
 }
 
-.tipos>p{
+.tipos>p {
     font-weight: 100;
     background: white;
     color: #2e2e2e;
@@ -316,7 +316,7 @@ nav {
     padding-bottom: 20px;
 }
 
-.tipos>a{
+.tipos>a {
     color: #000000;
     font-weight: 400;
     text-decoration: none;
