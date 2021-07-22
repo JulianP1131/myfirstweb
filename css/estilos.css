@@ -87,6 +87,7 @@ nav {
     height: 80px;
     width: 100%;
     align-items: center;
+    padding: 0 40px;
 }
 
 .nav .logo {
@@ -388,4 +389,4 @@ footer {
 
 /* Break points responsive */
 
-@media screen and (max-width:800px)
+@media screen and (max-width:800px) {}
