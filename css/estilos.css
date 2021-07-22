@@ -396,5 +396,7 @@ footer {
     
     .contenido-header{
         flex-direction: colum;
+        justify-content: space-evenly;
+        heigth: 720px;
     }
 }
