@@ -87,7 +87,6 @@ nav {
     height: 80px;
     width: 100%;
     align-items: center;
-    padding: 0 40px;
 }
 
 .nav .logo {
@@ -387,4 +386,53 @@ footer {
     }
 }
 
-/* Break points responsive */
+/* developing */
+
+@media screen and (max-width:800px){
+    * {
+        overflow-x: hidden;
+    }
+
+    .titulo{
+        font-size: 45px;
+    }
+
+    /* header */
+
+    .temas-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 720px;
+    }
+
+    .temas-header>img{
+        width: 700px;
+    }
+
+    .topic-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 720px;
+    }
+    
+    .contenido-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 720px;
+    }
+
+    .contenido-header>img{
+        width: 600px;
+    }
+    
+    /* About us */
+
+    .articulo{
+        width: 45%;
+    }
+
+    .tipos{
+        width: 45%;
+    }
+
+}
