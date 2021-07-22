@@ -385,3 +385,7 @@ footer {
         transform: scale(1);
     }
 }
+
+/* Break points responsive */
+
+@media screen and (max-width:800px)
