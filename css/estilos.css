@@ -393,4 +393,8 @@ footer {
     .titulo{
         font-size: 45px;
     }
+    
+    .contenido-header{
+        flex-direction: colum;
+    }
 }
