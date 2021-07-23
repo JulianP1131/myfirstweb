@@ -130,6 +130,29 @@ nav {
     background: silver;
 }
 
+.hamburguer {
+    width: 80px;
+    height: 80px;
+    background: white;
+    color: white;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+.hamburguer>i {
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+    background: white;
+    color: white;
+}
+
 .contenido-header {
     width: 100%;
     height: 600px;
@@ -388,71 +411,87 @@ footer {
 
 /* developing */
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     * {
-        overflow-x: hidden;
+        overflow-x: scroll;
     }
 
     h3 {
         font-size: 46px;
     }
 
-    .titulo{
+    .nav {
+        padding: 0 10px;
+    }
+
+    .titulo {
         font-size: 45px;
+    }
+
+    .fa, .fas {
+        background: white;
+        font-weight: 900;
+    }
+
+    .fa-bars:before {
+        content: "\f0c9";
+        background: white;
+        margin-right: 20px;
+        color: #000
     }
 
     /* header */
 
-    .temas-header{
+    .temas-header {
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
         margin-left: 1px;
     }
 
-    .temas-header p{
+    .temas-header p {
         color: #1d1d1d;
     }
 
-    .temas-header>img{
+    .temas-header>img {
         width: 310px;
     }
 
-    .topic-header{
+    .topic-header {
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
     }
 
-    .topic-header p{
+    .topic-header p {
         color: #1d1d1d;
     }
 
-    .topic-header>img{
+    .topic-header>img {
         width: 300px;
     }
-    
-    .contenido-header{
+
+    .contenido-header {
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
     }
 
-    .contenido-header>img{
+    .contenido-header>img {
         width: 400px;
     }
-    
+
     /* About us */
 
-    .articulo{
+    .articulo {
         width: 45%;
     }
 
-    .articulo p{
+    .articulo p {
         color: #414141;
     }
 
-    .tipos{
+    .tipos {
         width: 45%;
     }
 
@@ -460,4 +499,14 @@ footer {
         width: 300px;
     }
 
+}
+
+/* extras */
+
+.enlaces-header {
+    display: none;
+}
+
+.hamburguer {
+    display: block;
 }
