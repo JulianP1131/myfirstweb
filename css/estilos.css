@@ -393,6 +393,10 @@ footer {
         overflow-x: hidden;
     }
 
+    h3 {
+        font-size: 46px;
+    }
+
     .titulo{
         font-size: 45px;
     }
@@ -403,16 +407,21 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
+        margin-left: 1px;
     }
 
     .temas-header>img{
-        width: 700px;
+        width: 310px;
     }
 
     .topic-header{
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
+    }
+
+    .topic-header>img{
+        width: 300px;
     }
     
     .contenido-header{
@@ -422,7 +431,7 @@ footer {
     }
 
     .contenido-header>img{
-        width: 600px;
+        width: 400px;
     }
     
     /* About us */
@@ -433,6 +442,10 @@ footer {
 
     .tipos{
         width: 45%;
+    }
+
+    [data-aos^=zoom][data-aos^=zoom].aos-animate {
+        width: 300px;
     }
 
 }
