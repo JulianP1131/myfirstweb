@@ -410,6 +410,10 @@ footer {
         margin-left: 1px;
     }
 
+    .temas-header p{
+        color: #444444;
+    }
+
     .temas-header>img{
         width: 310px;
     }
@@ -418,6 +422,10 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
+    }
+
+    .topic-header p{
+        color: #444444;
     }
 
     .topic-header>img{
