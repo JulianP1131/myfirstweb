@@ -85,6 +85,7 @@ nav {
     background: white;
     justify-content: space-between;
     height: 80px;
+    padding: 0 10px;
     width: 100%;
     align-items: center;
 }
@@ -131,8 +132,6 @@ nav {
 }
 
 .hamburguer {
-    width: 80px;
-    height: 80px;
     background: white;
     color: white;
     display: none;
@@ -498,15 +497,47 @@ footer {
     [data-aos^=zoom][data-aos^=zoom].aos-animate {
         width: 300px;
     }
-
 }
 
-/* extras */
+@media screen and (max-with:600px) {
+    .titulo {
+        font-size: 35px;
+    }
 
-.enlaces-header {
-    display: none;
-}
+    .h1 {
+        font-size: 40px;
+    }
 
-.hamburguer {
-    display: block;
+    .contenido-header {
+        height: 650px;
+    }
+
+    .nav {
+        padding: 0 10px;
+    }
+
+    .contenido-header>img {
+        width: 200px;
+    }
+
+    .enlaces-header{
+        display: none;
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    /* about-us */
+
+    .articulo {
+        width: 95%;
+    }
+
+    /* footer */
+
+    .partFooter{
+        width: 95px;
+        margin-bottom: 40px;
+    }
 }
