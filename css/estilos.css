@@ -81,10 +81,12 @@ nav {
 }
 
 .nav {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0 / 10%);
     display: flex;
     background: white;
     justify-content: space-between;
     height: 80px;
+    font-size: 1rem;
     padding: 0 10px;
     width: 100%;
     align-items: center;
@@ -129,21 +131,6 @@ nav {
 
 .footer1.contenedor {
     background: silver;
-}
-
-.hamburguer {
-    background: white;
-    color: white;
-    display: none;
-    text-align: center;
-    z-index: 100;
-    cursor: pointer;
-    transition: color 0.5s ease-in;
-}
-
-.hamburguer>i {
-    font-size: 25px;
-    line-height: 80px;
 }
 
 .fa-bars:before {
@@ -423,6 +410,14 @@ footer {
         padding: 0 10px;
     }
 
+    .nav .logo {
+        align-items: center;
+    }
+
+    .nav .logo img {
+        align-items: center;
+    }
+
     .titulo {
         font-size: 45px;
     }
@@ -501,5 +496,11 @@ footer {
 
     [data-aos^=zoom][data-aos^=zoom].aos-animate {
         width: 300px;
+    }
+
+    /* Footer */
+
+    .partFooter img {
+        width: 90px;
     }
 }
