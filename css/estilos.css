@@ -427,7 +427,8 @@ footer {
         font-size: 45px;
     }
 
-    .fa, .fas {
+    .fa,
+    .fas {
         background: white;
         font-weight: 900;
     }
@@ -480,6 +481,10 @@ footer {
         width: 400px;
     }
 
+    .enlaces-header {
+        display: none;
+    }
+
     /* About us */
 
     .articulo {
@@ -520,7 +525,7 @@ footer {
         width: 200px;
     }
 
-    .enlaces-header{
+    .enlaces-header {
         display: none;
     }
 
@@ -536,7 +541,7 @@ footer {
 
     /* footer */
 
-    .partFooter{
+    .partFooter {
         width: 95px;
         margin-bottom: 40px;
     }
